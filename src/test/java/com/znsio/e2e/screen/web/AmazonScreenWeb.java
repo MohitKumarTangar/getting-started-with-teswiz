@@ -24,24 +24,28 @@ public class AmazonScreenWeb extends AmazonScreen {
     @Override
     public AmazonScreen login(String page) {
         // Login steps
+        System.out.println("Login");
         return this;
     }
 
     @Override
     public AmazonScreen searchForItem(String keyWord) {
         // Search steps
+        System.out.println("Search");
         return this;
     }
 
     @Override
     public AmazonScreen addToCart() {
         // Add to cart steps
+        System.out.println("Add to cart");
         return this;
     }
 
     @Override
     public AmazonScreen verifyCart() {
         // Verify cart steps
+        System.out.println("Verify Cart");
         return this;
     }
 }

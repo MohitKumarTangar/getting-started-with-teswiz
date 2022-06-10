@@ -29,7 +29,6 @@ public class AmazonSteps {
         LOGGER.info(System.out.printf("iLoggedInAndOnHomePage - Persona:'%s'", SAMPLE_TEST_CONTEXT.ME));
         allDrivers.createDriverFor(SAMPLE_TEST_CONTEXT.ME, Runner.platform, context);
         new AmazonBL(SAMPLE_TEST_CONTEXT.ME, Runner.platform).login(page);
-        System.out.println("Hii");
     }
 
     @When("User searches for {string}")
